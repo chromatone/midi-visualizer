@@ -1,0 +1,18 @@
+{
+  "name": "midi-visualizer",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@d85/hsl-to-hex": "^1.0.0",
+    "@svgdotjs/svg.js": "^3.0.16",
+    "@tonejs/midi": "^2.0.25",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.13",
+    "@vue/compiler-sfc": "^3.0.4"
+  }
+}
