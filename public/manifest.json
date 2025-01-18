@@ -1,0 +1,18 @@
+{
+	"id": "chromatone-midi-visualization",
+	"name": "MIDI Visualization",
+	"short_name": "MIDI Visual",
+	"description": "Visualize MIDI file with blocks of colorful notes in an SVG format",
+	"start_url": "/",
+	"background_color": "#999",
+	"theme_color": "#999",
+	"display": "standalone",
+	"orientation": "any",
+	"display_override": ["window-controls-overlay", "minimal-ui", "standalone"],
+	"handle_links": "preferred",
+	"prefer_related_applications": false,
+	"categories": ["music", "audio", "tools"],
+	"launch_handler": {
+		"client_mode": ["focus-existing", "auto"]
+	}
+}

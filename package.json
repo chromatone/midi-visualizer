@@ -1,18 +1,22 @@
 {
-  "name": "midi-visualizer",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "@d85/hsl-to-hex": "^1.0.0",
-    "@svgdotjs/svg.js": "^3.0.16",
-    "@tonejs/midi": "^2.0.25",
-    "vue": "^3.0.4"
-  },
-  "devDependencies": {
-    "vite": "^1.0.0-rc.13",
-    "@vue/compiler-sfc": "^3.0.4"
-  }
+	"name": "midi-visualizer",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"serve": "vite preview"
+	},
+	"dependencies": {
+		"@d85/hsl-to-hex": "^1.0.0",
+		"@svgdotjs/svg.js": "^3.2.4",
+		"@tonejs/midi": "^2.0.28",
+		"vue": "^3.5.13"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.2.1",
+		"@vue/compiler-sfc": "^3.5.13",
+		"unocss": "^65.4.2",
+		"vite": "^6.0.7",
+		"vite-plugin-singlefile": "^2.1.0"
+	}
 }
